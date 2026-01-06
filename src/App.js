@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Info from "./components/Info/Info";
 import TasksList from "./components/TasksList";
-import Comment from "./components/Comment";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
           <Info />
           <TasksList />
         </app>
-        <Comment />
       </div>
     </div>
   );
